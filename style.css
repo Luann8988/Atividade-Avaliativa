@@ -142,4 +142,12 @@ ul li.active a {
 
 .sub-menu ul li a:hover {
 	color: #b366ff;
+
+}
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
 }
