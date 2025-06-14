@@ -27,7 +27,7 @@ body {
     -webkit-backdrop-filter: blur(12px);
     border-radius: 15px;
     border: 2px solid #FF00FF; /* Neon Pink Border */
-    box-shadow: 0 0 30px #FF00FF, 0 0 60px rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 30px #ffffff, 0 0 60px rgba(0, 255, 255, 0.3);
     overflow: hidden;
 }
 
