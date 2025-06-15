@@ -40,14 +40,14 @@ body {
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 40px rgba(249, 252, 106, 0.973);
 }
 
 .card img {
   width: 100%;
   height: 160px;
   object-fit: cover;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.87);
+  border-bottom: 3px solid rgba(238, 255, 0, 0.87);
 }
 
 .card-body {
@@ -57,29 +57,32 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
+/* para mexer no titulo Everaldo */
 .card-title {
-  font-size: 1.4rem;
-  margin-bottom: 0.75rem;
-  font-weight: 700;
-  background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
 }
 
+/* para mexer no texto*/
 .card-text {
   font-size: 1rem;
-  color: #333; /* Cor de texto mais suave */
+  color: #ffffff; 
   margin-bottom: 1.5rem;
-  line-height: 1.5; /* Aumenta o espaçamento entre linhas */
+  line-height: 1.8; 
   flex-grow: 1;
 }
 
 .card-body .btn-group {
   display: flex;
-  gap: 15px; /* Aumenta o espaço entre os botões */
+  gap: 30px; 
+  color: #fff;
 }
 
 .btn {
-  flex: 1; /* Ajusta a flexibilidade dos botões */
+  flex: 1; 
   padding: 0.6rem 0;
   border-radius: 25px;
   font-weight: 600;
@@ -89,26 +92,26 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
   text-align: center;
   text-decoration: none;
-  color: #fff; /* Cor do texto dos botões */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #fff; 
+  box-shadow: 0 4px 10px rgba(233, 57, 57, 0.959);
   user-select: none;
 }
 
 .btn-primary {
-  background-color: #007bff; /* Cor de fundo do botão primário */
+  background-color: #007bff; 
 }
 
 .btn-primary:hover {
-  background-color: #0056b3; /* Cor ao passar o mouse */
+  background-color: #b30000; 
 }
 
 .btn-secondary {
-  background-color: #6c757d; /* Cor de fundo do botão secundário */
-  color: #fff; /* Cor do texto do botão secundário */
+  background-color: #0d95d4; 
+  color: #fff; 
 }
 
 .btn-secondary:hover {
-  background-color: #5a6268; /* Cor ao passar o mouse */
+  background-color: #f51a25; 
 }
 
 @media (max-width: 960px) {
