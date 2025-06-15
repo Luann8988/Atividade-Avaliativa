@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style5.css" />
-    <title>Àrea Aluno</title>
+    <title>Área Aluno</title>
 </head>
-              <!--Já são 2:22 da manhã meu deus--->
+<!--Já são 2:22 da manhã meu deus-->
 <body>
     <div class="container">
         <div class="form-image">
@@ -51,13 +51,7 @@
 
                     <div class="input-box">
                         <label for="confirmPassword">Confirme sua Senha</label>
-                        <input
-                            id="confirmPassword"
-                            type="password"
-                            name="confirmPassword"
-                            placeholder="Digite sua senha novamente"
-                            required
-                        />
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required />
                     </div>
 
                     <div class="input-box">
@@ -69,16 +63,31 @@
                             <option value="programacao">Curso de JavaScript</option>
                             <option value="design-grafico">Curso de Python</option>
                             <option value="marketing-digital">Curso de Banco de Dados</option>
-                            <option value="marketing-digital">Curso de PHP</option>
-                            <option value="marketing-digital">Curso de React</option>
-                            <option value="marketing-digital">Curso de UX/UI Design</option>
-                            <option value="marketing-digital">Curso de Cibersegurança</option>
-                            <option value="marketing-digital">Curso de Mobile</option>
-                            <option value="marketing-digital">Curso de Java</option>
-                            <option value="marketing-digital">Curso de Node.js</option>
-
+                            <option value="php">Curso de PHP</option>
+                            <option value="react">Curso de React</option>
+                            <option value="ux-ui">Curso de UX/UI Design</option>
+                            <option value="ciberseguranca">Curso de Cibersegurança</option>
+                            <option value="mobile">Curso de Desevolvimento Mobile</option>
+                            <option value="nodejs">Curso Node.js</option>
+                            <option value="java">Curso de Java</option>
                         </select>
                     </div>
+
+                    <!--So pix tá meu site e chique-->
+
+                    <div class="input-box">
+                        <label for="paymentMethod">Forma de Pagamento</label>
+                        <select id="paymentMethod" name="paymentMethod" required>
+                            <option value="pix">PIX</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Chave PIX (CPF):</label>
+                        <p class="pix-key">XXX.XXX.XXX-XX</p>
+                        <img src="https://i.pinimg.com/originals/c7/e7/9f/c7e79f0c2dff3ff7fcd06c0b23f76d50.png" alt="Logo PIX" class="pix-logo" style="width: 120px; margin-top: 10px;">
+                    </div>
+
                 </div>
 
                 <div class="continue-button">

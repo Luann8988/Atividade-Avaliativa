@@ -59,7 +59,7 @@ body {
 }
 /* para mexer no titulo Everaldo */
 .card-title {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 248, 248);
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -78,7 +78,7 @@ body {
 .card-body .btn-group {
   display: flex;
   gap: 30px; 
-  color: #fff;
+  color: #2ef1a0;
 }
 
 .btn {
@@ -92,13 +92,13 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
   text-align: center;
   text-decoration: none;
-  color: #fff; 
+  color: #fffdfd; 
   box-shadow: 0 4px 10px rgba(233, 57, 57, 0.959);
   user-select: none;
 }
 
 .btn-primary {
-  background-color: #007bff; 
+  background-color: #ff0000; 
 }
 
 .btn-primary:hover {
@@ -106,7 +106,7 @@ body {
 }
 
 .btn-secondary {
-  background-color: #0d95d4; 
+  background-color: #ff0808; 
   color: #fff; 
 }
 

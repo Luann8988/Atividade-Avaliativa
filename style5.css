@@ -180,3 +180,37 @@ h1 {
         padding-right: 0;
     }
 }
+.input-box select#paymentMethod {
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #e9f7f3;
+    color: #000000;
+    font-weight: bold;
+}
+
+.input-box .pix-key {
+    background-color: #e1f7ed;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000000;
+    font-family: monospace;
+    margin-top: 5px;
+    word-break: break-word;
+    font-size: 14px;
+}
+
+.input-box img.pix-logo {
+    display: block;
+    margin-top: 10px;
+    max-width: 150px;
+    height: auto;
+}
+
+.input-box label[for="paymentMethod"],
+.input-box label:not([for]) {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+    display: block;
+}
