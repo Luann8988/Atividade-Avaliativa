@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +7,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(13,17,23,0.8), rgba(13,17,23,0.8)), url(imagem.png.jpg);
+  background-image: linear-gradient(rgba(13, 17, 23, 0.8), rgba(13, 17, 23, 0.8)), url(imagem.png.jpg);
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -28,9 +27,9 @@ body {
 }
 
 .card {
-  background: linear-gradient(90deg, #00CFFF, #9D00FF);
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Cores mais agradáveis */
   border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(157, 0, 255, 0.6);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 280px;
   display: flex;
@@ -41,14 +40,14 @@ body {
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 40px rgba(157, 0, 255, 0.9);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
   width: 100%;
   height: 160px;
   object-fit: cover;
-  border-bottom: 3px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.87);
 }
 
 .card-body {
@@ -63,54 +62,53 @@ body {
   font-size: 1.4rem;
   margin-bottom: 0.75rem;
   font-weight: 700;
-  text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
+  background: transparent;
 }
 
 .card-text {
   font-size: 1rem;
-  color: #e0e0e0;
+  color: #333; /* Cor de texto mais suave */
   margin-bottom: 1.5rem;
-  line-height: 1.3;
+  line-height: 1.5; /* Aumenta o espaçamento entre linhas */
   flex-grow: 1;
 }
 
 .card-body .btn-group {
   display: flex;
-  gap: 10px;
+  gap: 15px; /* Aumenta o espaço entre os botões */
 }
 
 .btn {
-  flex: 1;
+  flex: 1; /* Ajusta a flexibilidade dos botões */
   padding: 0.6rem 0;
   border-radius: 25px;
   font-weight: 600;
   font-size: 1rem;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
   text-align: center;
   text-decoration: none;
-  color: #121212;
+  color: #fff; /* Cor do texto dos botões */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   user-select: none;
 }
 
 .btn-primary {
-  background-color: #00CFFF;
+  background-color: #007bff; /* Cor de fundo do botão primário */
 }
 
 .btn-primary:hover {
-  background-color: #00a3cc;
-  color: #fff;
+  background-color: #0056b3; /* Cor ao passar o mouse */
 }
 
 .btn-secondary {
-  background-color: #9D00FF;
-  color: #fff;
+  background-color: #6c757d; /* Cor de fundo do botão secundário */
+  color: #fff; /* Cor do texto do botão secundário */
 }
 
 .btn-secondary:hover {
-  background-color: #7300b3;
+  background-color: #5a6268; /* Cor ao passar o mouse */
 }
 
 @media (max-width: 960px) {
